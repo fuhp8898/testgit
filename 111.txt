@@ -1,0 +1,27 @@
+Bus Hound 6.01 capture on Windows Vista (x64). Complements of www.perisoft.net
+
+  Device - Device ID (followed by the endpoint for USB devices)
+            (21) Prolific USB-to-Serial Comm Port (COM5)
+  Phase  - Phase Type
+            IN    Data in transfer           
+            OUT   Data out transfer          
+  Data   - Hex dump of the data transferred
+  Descr  - Description of the phase
+  Delta  - Elapsed time from the previous phase to the current phase
+  Cmd... - Position in the captured data
+
+
+Device  Phase  Data                                                                                                    Description                       Delta  Cmd.Phase.Ofs(rep)
+------  -----  ------------------------------------------------------------------------------------------------------  --------------------------------  -----  ------------------
+  21    IN     5a a5 01 21                                                                                             Z..!                               22sc         1.1.0        
+  21    OUT    5a a5 07 20  24 06 03 16  39 00                                                                         Z.. $...9.                        1.1ms         2.1.0        
+  21    IN     5a a5 29 31  0a 09 c0 a8  00 1e ff ff  ff 00 c0 a8  00 01 c0 a8  00 69 0f a0  01 54 50 2d  4c 49 4e 4b  Z.)1.................i...TP-LINK   64ms         3.1.0        
+  21    IN     5a a5 01 43  5a a5 02 50  00                                                                            Z..CZ..P.                         110ms         4.1.0        
+  21    IN     5a a5 02 50  01                                                                                         Z..P.                             5.5sc         5.1.0        
+  21    IN     5a a5 01 44                                                                                             Z..D                               53sc         6.1.0        
+  21    OUT    5a a5 01 10                                                                                             Z...                               32sc         7.1.0        
+  21    IN     5a a5 01 10                                                                                             Z...                               56ms         8.1.0        
+  21    IN     5a a5 01 45                                                                                             Z..E                              4.5sc         9.1.0        
+  21    OUT    5a a5 01 11                                                                                             Z...                               21sc        10.1.0        
+  21    IN     5a a5 01 45                                                                                             Z..E                               12sc        11.1.0        
+  21    IN     5a a5 0c 42  32 30 32 34  30 36 30 33  30 30 33 5a  a5 03 41 02  58                                     Z..B20240603003Z..A.X             1.1mn        12.1.0        
