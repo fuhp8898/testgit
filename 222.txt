@@ -1,3 +1,4 @@
+11111111111111111111111111111111111111111111111111111111
 Bus Hound 6.01 capture on Windows Vista (x64). Complements of www.perisoft.net
 
   Device - Device ID (followed by the endpoint for USB devices)
