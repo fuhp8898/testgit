@@ -10,7 +10,7 @@ Bus Hound 6.01 capture on Windows Vista (x64). Complements of www.perisoft.net
   Delta  - Elapsed time from the previous phase to the current phase
   Cmd... - Position in the captured data
 
-
+23·42421
 Device  Phase  Data                                                                                                    Description                       Delta  Cmd.Phase.Ofs(rep)
 ------  -----  ------------------------------------------------------------------------------------------------------  --------------------------------  -----  ------------------
   21    IN     5a a5 01 21                                                                                             Z..!                              1.4mn         1.1.0        

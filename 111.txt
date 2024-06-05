@@ -1,6 +1,8 @@
 22222222222222222222222222222222222222222222222222
 5555555555555555555555555555555555555555555555555555555555555555555555555
 3456789
+3455535
+23153532342424
 Bus Hound 6.01 capture on Windows Vista (x64). Complements of www.perisoft.net
 
   Device - Device ID (followed by the endpoint for USB devices)
@@ -8,7 +10,7 @@ Bus Hound 6.01 capture on Windows Vista (x64). Complements of www.perisoft.net
   Phase  - Phase Type
             IN    Data in transfer           
             OUT   Data out transfer          
-  Data   - Hex dump of the data transferred
+  Data   - Hex 212312332dump of the data transferred
   Descr  - Description of the phase
   Delta  - Elapsed time from the previous phase to the current phase
   Cmd... - Position in the captured data
